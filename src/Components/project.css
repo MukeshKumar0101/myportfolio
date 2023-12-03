@@ -1,0 +1,43 @@
+#projects{
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.all-Project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.project-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-detail a{
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+
+}
+
+.project-detail a:hover{
+  text-decoration: underline;
+}
+
+.project-img{
+  height: 10rem;
+  border-radius: 1rem;
+  
+}
+
+.project-img:hover{
+  height: 12rem;
+  transition-duration: 2s ;
+}
