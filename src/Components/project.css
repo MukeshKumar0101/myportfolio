@@ -7,11 +7,25 @@
 
 }
 
+.heading{
+  background: rgb(50, 50, 50);
+  color: white;
+  padding: 1rem 0;
+}
+
+#mini-restaurant{
+  margin-left: 10rem;
+}
+
 .all-Project{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 2rem;
+  margin-top: 2rem;
+  max-width: 60rem;
+  overflow: scroll;
+  padding: 1rem 10rem;
 }
 .project-detail{
   display: flex;
@@ -34,6 +48,8 @@
 .project-img{
   height: 10rem;
   border-radius: 1rem;
+  box-shadow: 2px 1px 6px;
+  margin-bottom: 1rem;
   
 }
 

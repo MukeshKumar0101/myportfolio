@@ -27,6 +27,7 @@ export default function Navbar() {
         <Link activeClass="active" to="intro" spy={true} smooth={true} duration={500} offset={-100} className="listItem" onClick={()=>{setShowMenu(false)}}>Home</Link>
         <Link activeClass="active" to="skills" spy={true} smooth={true} duration={500}   offset={-150} className="listItem" onClick={()=>{setShowMenu(false)}}>About</Link>
         <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}   offset={-150} className="listItem" onClick={()=>{setShowMenu(false)}}>contact</Link>
+        <Link onClick={()=>{setShowMenu(false)}} className="listItem" activeClass="active" to="projects" spy={true} smooth={true} duration={500}   offset={-150}>Projects</Link>
       </div>
     </nav>
   );

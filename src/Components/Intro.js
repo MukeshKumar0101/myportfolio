@@ -7,6 +7,9 @@ import { Link } from "react-scroll";
 import { IoBagSharp } from "react-icons/io5";
 
 export default function Intro() {
+  const onclickHandle=()=>{
+    alert("My number "+ " 8219615924")
+  }
   return (
     <section id="intro">
       <div className="introContent">
@@ -14,14 +17,14 @@ export default function Intro() {
         <span className="introText">
           I'm <span className="introName">Mukesh Kumar</span>
           <br />
-          React Js Developer
+          React Js Developer 
         </span>
         <p className="introPara">
           I am a React Js Developer with experties in <br /> HTML,Css, Javascript,
           Frameworks UI Libraries
         </p>
-        <Link>
-          <button className="btn">
+        <Link> 
+          <button onClick={onclickHandle} className="btn">
             {" "}
             <IoBagSharp /> Hire Me
           </button>
